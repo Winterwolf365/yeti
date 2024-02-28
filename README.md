@@ -10,3 +10,5 @@ Than you need to go into the direcotry of this reposetory and run the folling co
 1. `sudo docker compose up -d` (in some cases you need to use docker-compose with and '-' between it, and the -d flag is to run it in the background)
 2. `cargo run --release`
 The docker command was to start the postgres database, and the cargo to run the rust project.
+
+Note: docker is only for the postgres database, and cargo for the api made in rust.
